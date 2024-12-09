@@ -12,13 +12,15 @@ export default props => (
 const styles = StyleSheet.create({
   display: {
     flex: 1,
-    padding: 20,
+    padding: 30,
     justifyContent: 'center',
-    backgroundColor: 'rgba(0,0,0,0.6)',
+    backgroundColor: 'rgba(0,0,0,0.8)',
     alignItems: 'flex-end',
+    borderBottomWidth: 1,
+    borderColor: '#888',
   },
   displayValue: {
-    fontSize: 60,
+    fontSize: 50,
     color: '#fff',
   },
 });

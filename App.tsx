@@ -105,5 +105,8 @@ const styles = StyleSheet.create({
   buttons: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-  }
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 1,
+  },
 });
